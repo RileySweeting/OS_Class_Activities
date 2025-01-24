@@ -40,4 +40,16 @@ int main() {
     // Close file
     fclose(fptr);
 
+    // Open file
+    FILE* fp;
+    fp = fopen("practice_out.txt", "r");
+
+    // Move pointer to end
+    fseek(fp, 0, SEEK_END);
+
+    // Display pointer position
+    printf("%ld \n", ftell(fp));
+
+    return 0;
+
 }
