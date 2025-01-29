@@ -4,7 +4,7 @@ int main() {
     FILE *fptr;
 
     // Open file in writing mode
-    fptr = fopen("hello.txt", "w");
+    fptr = fopen("4_1_hello.txt", "w");
 
     // Write text to file
     fprintf(fptr, "Hello, \n"
